@@ -1,0 +1,32 @@
+Formularios Reactivos 12/01/2023:
+Casi toda la configuración del formulario se hace en el lado del componente ts en lugar del html, tambien se aconseja trabajar con reactive-forms cuando estos formularios pasan de 2 campos o cuando queramos más control sobre el formulario.
+
+1)Creación del Formulario - FormGroup
+- Una manera mas sencilla para trabajar con formularios reactivos, es utilizando el formBuilder porque tiene varios metodos que nos ayudaran en la creación de formularios.
+
+- Por defecto el formGroup nesecita la configuración de un objeto.
+
+- Syntaxis del formgroup.
+    Primera posicion el valor por defecto que queremos darle,
+    Segunda posicion vienen las validaciones síncronas y
+    Tercera posicion vienen las validaciones asincronas.
+
+    Ejemplo:
+
+    nombre  : ['Diego', '', ''],
+    apellido: ['Ferrer', '', ''],
+    correo  : ['Diego@ferrer.com', '', '']
+ 
+2) Validaciones Síncronas:
+
+
+
+
+
+- Diccionario :
+
+Si sabe por medios externos que una expresión no es (null) o (undefined), 
+puede usar el (operador) (!) de aserción no nulo para eliminar esos tipos.
+
+formControlName: 
+    Sirve para relacionar el input con sus propiedad que esta en el componente.ts
